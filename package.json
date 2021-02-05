@@ -1,7 +1,7 @@
 {
   "name": "v-lam-plugin",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main":"./file/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",

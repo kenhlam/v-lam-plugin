@@ -1,5 +1,10 @@
 # v-lam-plugin
 
+## 安装
+
+yarn add v-lam-plugin  or  npm i v-lam-plugin
+
+
 ## Project setup
 ```
 yarn install
