@@ -2,14 +2,20 @@
   "name": "v-lam-plugin",
   "version": "0.1.0",
   "private": true,
+  "main":"./file/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:file": "webpack "
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.11",
+    "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -18,7 +24,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.4.0"
   },
   "eslintConfig": {
     "root": true,

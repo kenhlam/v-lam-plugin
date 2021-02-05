@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import MyPlugin from './plugin'
+Vue.use(MyPlugin)
 Vue.config.productionTip = false
 
 new Vue({

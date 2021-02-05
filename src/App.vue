@@ -1,19 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    插件开发
+    <cl-button>12312313</cl-button>
+    <cl-switch v-model="value" active-color="#13ce66" inactive-color="#ff4949">
+    </cl-switch>
+   
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Vue from "vue";
+// import Plugin from "./plugin";
+// const { Button , Switch} = Plugin
+// Vue.use(Button);
+// Vue.use(Switch);
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  data() {
+    return {
+      value: true,
+    };
+  },
+  components: {},
+  watch: {
+    value() {
+      console.log(this.value);
+    },
+  },
+  mounted() {
+   
+  },
+  components: {},
+};
 </script>
 
 <style>
